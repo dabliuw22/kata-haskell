@@ -31,7 +31,8 @@ library
       Kata.DoubleCola.Solution
       Kata.Likes.Solution,
       Kata.DigitalRoot.Solution,
-      Kata.UniqueInOrder.Solution
+      Kata.UniqueInOrder.Solution,
+      Kata.GetMiddle.Solution
   other-modules:
       Paths_kata_haskell
   hs-source-dirs:
