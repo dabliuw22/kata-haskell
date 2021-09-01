@@ -10,10 +10,19 @@ uniqueInOrder (a : b : xs)
   | a == b = uniqueInOrder (b : xs)
   | otherwise = a : uniqueInOrder (b : xs)
 -}
+
 {-
+import Data.List (foldl')
+
 uniqueInOrder :: Eq a => [a] -> [a]
-uniqueInOrder = foldl (\ acc elem -> if null acc || (y /= last acc) then elem:acc else acc) []
+uniqueInOrder = reverse . aux
+  where
+    f acc elem
+      | null acc || elem /= head acc = elem:acc
+      | otherwise = acc
+    aux word' = foldl' f [] word'
 -}
+
 {-
 import Data.List (group)
 uniqueInOrder :: Eq a => [a] -> [a]
