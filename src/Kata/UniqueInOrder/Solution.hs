@@ -1,4 +1,4 @@
-module Kata.UniqueInOrder.Solution where
+module Kata.UniqueInOrder.Solution (uniqueInOrder) where
 
 -- Problem: https://www.codewars.com/kata/54e6533c92449cc251001667
 
