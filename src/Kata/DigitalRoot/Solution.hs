@@ -1,4 +1,4 @@
-module Kata.DigitalRoot.Solution where
+module Kata.DigitalRoot.Solution (digitalRoot) where
 
 -- Problem: https://www.codewars.com/kata/541c8630095125aba6000c00/haskell
 
