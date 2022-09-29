@@ -20,6 +20,6 @@ $ stack exec kata-haskell-exe
 
 ## Run [Doctest](https://hackage.haskell.org/package/doctest)
 ```shell
-$ stack install doctest --resolver=lts-16.11
+$ stack install doctest --resolver=lts-18.6
 $ doctest src/Kata/*
 ```
