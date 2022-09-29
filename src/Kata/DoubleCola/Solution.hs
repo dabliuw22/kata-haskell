@@ -1,4 +1,9 @@
-module Kata.DoubleCola.Solution where
+module Kata.DoubleCola.Solution
+  ( whoIsNext,
+    initGroups,
+    groups,
+  )
+where
 
 -- Problem: https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0
 type Name = String
