@@ -1,4 +1,4 @@
-module Kata.Likes.Solution where
+module Kata.Likes.Solution (likes) where
 
 -- Problem: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 
